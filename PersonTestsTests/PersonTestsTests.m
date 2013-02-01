@@ -1,0 +1,32 @@
+//
+//  PersonTestsTests.m
+//  PersonTestsTests
+//
+//  Created by Max Woolf on 01/02/2013.
+//  Copyright (c) 2013 Max Woolf. All rights reserved.
+//
+
+#import "PersonTestsTests.h"
+
+@implementation PersonTestsTests
+
+- (void)setUp
+{
+    [super setUp];
+    
+    // Set-up code here.
+}
+
+- (void)tearDown
+{
+    // Tear-down code here.
+    
+    [super tearDown];
+}
+
+- (void)testExample
+{
+    STFail(@"Unit tests are not implemented yet in PersonTestsTests");
+}
+
+@end
