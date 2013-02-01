@@ -14,6 +14,7 @@
 }
 
 - (id)init;
+- (id)initWithName:(NSString *)aName;
 
 @property (nonatomic) NSString *name;
 

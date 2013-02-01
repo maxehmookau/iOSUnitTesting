@@ -32,4 +32,10 @@
     STAssertEqualObjects(@"John Doe", [person name], nil);
 }
 
+- (void)testCreatingAPersonWithAName
+{
+    MWPerson *person = [[MWPerson alloc] initWithName:@"Max Woolf"];
+    STAssertEqualObjects([person name], @"Max Woolf", nil);
+}
+
 @end
