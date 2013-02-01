@@ -7,6 +7,7 @@
 //
 
 #import "PersonTestsTests.h"
+#import "MWPerson.h"
 
 @implementation PersonTestsTests
 
@@ -24,9 +25,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+
+- (void)testCreatingAPersonSetsTheirNameToJohnDoe
 {
-    STFail(@"Unit tests are not implemented yet in PersonTestsTests");
+    MWPerson *person = [[MWPerson alloc] init];
+    STAssertEqualObjects(@"John Doe", [person name], nil);
 }
 
 @end

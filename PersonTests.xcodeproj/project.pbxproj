@@ -23,6 +23,7 @@
 		4DF54C7216BC473C00A3F63A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF54C4D16BC473C00A3F63A /* Foundation.framework */; };
 		4DF54C7A16BC473C00A3F63A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF54C7816BC473C00A3F63A /* InfoPlist.strings */; };
 		4DF54C7D16BC473C00A3F63A /* PersonTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF54C7C16BC473C00A3F63A /* PersonTestsTests.m */; };
+		4DF54C8816BC48B700A3F63A /* MWPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF54C8716BC48B700A3F63A /* MWPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		4DF54C7916BC473C00A3F63A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DF54C7B16BC473C00A3F63A /* PersonTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonTestsTests.h; sourceTree = "<group>"; };
 		4DF54C7C16BC473C00A3F63A /* PersonTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonTestsTests.m; sourceTree = "<group>"; };
+		4DF54C8616BC48B700A3F63A /* MWPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPerson.h; sourceTree = "<group>"; };
+		4DF54C8716BC48B700A3F63A /* MWPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				4DF54C6416BC473C00A3F63A /* MWViewController.m */,
 				4DF54C6616BC473C00A3F63A /* MWViewController.xib */,
 				4DF54C5216BC473C00A3F63A /* Supporting Files */,
+				4DF54C8616BC48B700A3F63A /* MWPerson.h */,
+				4DF54C8716BC48B700A3F63A /* MWPerson.m */,
 			);
 			path = PersonTests;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				4DF54C5816BC473C00A3F63A /* main.m in Sources */,
 				4DF54C5C16BC473C00A3F63A /* MWAppDelegate.m in Sources */,
 				4DF54C6516BC473C00A3F63A /* MWViewController.m in Sources */,
+				4DF54C8816BC48B700A3F63A /* MWPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +388,7 @@
 				GCC_PREFIX_HEADER = "PersonTests/PersonTests-Prefix.pch";
 				INFOPLIST_FILE = "PersonTests/PersonTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,6 +400,7 @@
 				GCC_PREFIX_HEADER = "PersonTests/PersonTests-Prefix.pch";
 				INFOPLIST_FILE = "PersonTests/PersonTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
