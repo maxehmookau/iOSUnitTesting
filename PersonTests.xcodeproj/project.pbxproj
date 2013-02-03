@@ -417,6 +417,7 @@
 				GCC_PREFIX_HEADER = "PersonTests/PersonTests-Prefix.pch";
 				INFOPLIST_FILE = "PersonTestsTests/PersonTestsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -434,6 +435,7 @@
 				GCC_PREFIX_HEADER = "PersonTests/PersonTests-Prefix.pch";
 				INFOPLIST_FILE = "PersonTestsTests/PersonTestsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
