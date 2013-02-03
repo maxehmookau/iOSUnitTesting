@@ -458,6 +458,7 @@
 				4DF54C8216BC473C00A3F63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DF54C8316BC473C00A3F63A /* Build configuration list for PBXNativeTarget "PersonTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +467,7 @@
 				4DF54C8516BC473C00A3F63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

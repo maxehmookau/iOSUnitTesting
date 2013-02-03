@@ -11,11 +11,13 @@
 @interface MWPerson : NSObject
 {
     NSString *_name;
+    int _age;
 }
 
 - (id)init;
 - (id)initWithName:(NSString *)aName;
 
 @property (nonatomic) NSString *name;
+@property (nonatomic) int age;
 
 @end
