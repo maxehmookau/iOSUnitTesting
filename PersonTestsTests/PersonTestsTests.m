@@ -35,7 +35,7 @@
 - (void)testCreatingAPersonWithAName
 {
     MWPerson *person = [[MWPerson alloc] initWithName:@"Max Wlf"];
-    STAssertEqualObjects([person name], @"Max Woolf", nil);
+    STAssertEqualObjects([person name], @"Max Wof", nil);
 }
 
 - (void)testSettingAPersonsAge
